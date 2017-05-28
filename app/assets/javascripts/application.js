@@ -20,3 +20,5 @@
 //= require_tree .
 //= require historicals
 //= require dc
+//= require highcharts
+//= require livechart

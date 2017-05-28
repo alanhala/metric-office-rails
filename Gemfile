@@ -78,6 +78,8 @@ gem 'd3-rails', '3.5.6'
 
 gem 'loadjs'
 
+gem "highcharts-rails"
+
 group :development do
   # Gem to detect N+1 queries
   gem 'better_errors'
