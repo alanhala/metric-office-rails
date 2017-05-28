@@ -1,0 +1,19 @@
+.navbar
+   = link_to image_tag("logo.svg", class: 'navbar-logo-img'), root_path, {class: 'navbar-logo'}
+   .title
+    = link_to 'Real Time', root_path, {class: 'navbar-titles'}
+   .title
+    = link_to 'Resources', resources_path, {class: 'navbar-titles'}
+   .title
+    = link_to 'Historical', historicals_path, {class: 'navbar-titles active'}
+   .user-icon
+    =  image_tag('user.svg', class: 'navbar-user')
+   .user-name
+    | Kevin Kraus
+
+.container-historical
+  #chart-row-roles
+  #chart-ring-year
+  #chart-row-spenders
+  #chart-hist-hour
+  #monthly-volume-chart

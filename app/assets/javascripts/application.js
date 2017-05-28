@@ -18,3 +18,5 @@
 //= require loadjs
 //= require realtime
 //= require_tree .
+//= require historicals
+//= require dc

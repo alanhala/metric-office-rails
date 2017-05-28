@@ -1,0 +1,20 @@
+.container-historical {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  #monthly-volume-chart {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 40px;
+  }
+
+  #monthly-volume-chart > svg {
+    margin: 0 auto;
+  }
+
+  #chart-hist-hour {
+    margin-top: 40px;
+  }
+
+}

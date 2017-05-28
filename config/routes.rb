@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   require 'sidekiq/web'
 
   resources :resources
+  resources :historicals
+
   mount Sidekiq::Web, at: 'sidekiq'
   mount PgHero::Engine, at: 'pghero'
 end
