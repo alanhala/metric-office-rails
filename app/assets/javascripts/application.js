@@ -14,4 +14,9 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require d3
+//= require loadjs
+//= require realtime
 //= require_tree .
+//= require historicals
+//= require dc

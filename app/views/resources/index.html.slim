@@ -1,0 +1,76 @@
+.navbar
+   = link_to image_tag("logo.svg", class: 'navbar-logo-img'), root_path, {class: 'navbar-logo'}
+   .title
+    = link_to 'Real Time', root_path, {class: 'navbar-titles'}
+   .title
+    = link_to 'Resources', resources_path, {class: 'navbar-titles active'}
+   .title
+    = link_to 'Historical', historicals_path, {class: 'navbar-titles'}
+   .user-icon
+    =  image_tag('user.svg', class: 'navbar-user')
+   .user-name
+    | Kevin Kraus
+
+.resources
+  .wrapper
+    .floor
+      .room2
+        .room-title
+          | 7A
+        .resources-container
+          .logo
+            = image_tag('smartphone.svg', class: 'resources-logo')
+          .name
+            | Iphone 6
+        .resources-container
+          .logo
+            = image_tag('key.svg', class: 'resources-logo')
+          .name
+            | Llave puerta principal
+    .floor
+      .room1
+        .room-title
+          | 6A
+      .room2
+        .room-title
+          | 6B
+        .resources-container
+          .logo
+            = image_tag('smartphone.svg', class: 'resources-logo')
+          .name
+            | Android LG V20
+      .room1
+        .room-title
+          | 6C
+    .floor
+      .room2
+        .room-title
+          | 5A
+        .resources-container
+          .logo
+            = image_tag('key.svg', class: 'resources-logo')
+          .name
+            | Llave puerta principal
+      .room1
+        .room-title
+          | 5B
+      .room2
+        .room-title
+          | 5C
+    .floor
+      .room1
+        .room-title
+          | 4A
+        .resources-container
+          .logo
+            =image_tag('smartphone.svg', class: 'resources-logo')
+          .name
+            | Iphone 5c
+        .resources-container
+          .logo
+            =image_tag('smartphone.svg', class: 'resources-logo')
+          .name
+            | Android Samsung S6
+      .room2
+        .room-title
+          | 4B
