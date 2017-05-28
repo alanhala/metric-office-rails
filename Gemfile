@@ -74,6 +74,10 @@ gem 'newrelic_rpm'
 
 gem 'recipient_interceptor'
 
+gem 'd3-rails', '3.5.6'
+
+gem 'loadjs'
+
 group :development do
   # Gem to detect N+1 queries
   gem 'better_errors'

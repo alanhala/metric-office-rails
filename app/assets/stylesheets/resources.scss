@@ -1,0 +1,55 @@
+// Place all the styles related to the Resources controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+
+  .floor {
+    display: flex;
+
+    .room1 {
+      min-height: 300px;
+      width: 400px;
+      background-color: #A5CD39;
+
+      .room-title {
+        font-size: 35px;
+        margin: 20px;
+        color: white;
+      }
+    }
+
+    .room2 {
+      min-height: 300px;
+      width: 400px;
+      background-color: #00ADEE;
+
+      .room-title {
+        font-size: 35px;
+        margin: 20px;
+        color: white;
+      }
+    }
+
+    .resources-container {
+      background-color: white;
+      width: 360px;
+      height: 40px;
+      margin: 20px;
+      border-radius: 6px;
+      padding: 5px;
+      display: flex;
+
+      .resources-logo {
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 20px;
+      }
+      .name {
+        color: black;
+        font-size: 20px;
+      }
+    }
+  }
+}

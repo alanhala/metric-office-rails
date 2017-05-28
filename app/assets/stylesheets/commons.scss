@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  padding: 10px;
+  box-shadow: 0 4px 5px -2px #888;
+
+  .navbar-logo {
+    margin-right: 100px;
+
+    .navbar-logo-img {
+      margin-top: -5px;
+      margin-left: 20px;
+      height: 30px;
+    }
+  }
+  .user-icon {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+    .navbar-user {
+      width: 40px;
+    }
+  }
+
+  .user-name {
+    font-size: 20px;
+    float: right;
+    margin-top: 17px;
+    margin-right: 30px;
+  }
+
+  .title {
+    display: inline-block;
+    margin-top: 20px;
+
+    .navbar-titles {
+      color: black;
+      font-size: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 30px;
+    }
+
+    .navbar-titles:hover {
+      color: #00ADEE;
+      text-decoration: none;
+    }
+  }
+}
